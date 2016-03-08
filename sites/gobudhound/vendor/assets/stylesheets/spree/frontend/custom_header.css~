@@ -1,0 +1,21 @@
+#spree-header #logo img {
+    width: 227px;
+    height: 250px;
+}
+
+#spree-header {
+    background: #49B381;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#spree-header #header {
+    background: #fff;
+    padding: 20px 0;
+}
+
+#spree-header .nav a {
+    color: #000;
+}
+
+

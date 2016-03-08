@@ -1,0 +1,29 @@
+.panel-default {
+    border-color: #000;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel:hover {
+    background-color: #197520;
+    cursor: pointer;
+}
+
+.panel:focus {
+    background-color: #197520;
+    cursor: pointer;
+}
+
+.panel a {
+    color: #000;
+    text-decoration: none;
+}
+
+

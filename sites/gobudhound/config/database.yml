@@ -1,0 +1,30 @@
+# SQLite version 3.x
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+#
+development:
+  host: localhost
+  adapter: postgresql
+  database: budhound_dev
+  username: mystore
+  password: password
+
+test: &TEST
+  host: localhost
+  adapter: postgresql
+  database: budhound_test
+  username: mystore
+  password: password
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: project_production
+  pool: 5
+  username: 
+  password:
+
+cucumber:
+  <<: *TEST
